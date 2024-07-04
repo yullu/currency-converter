@@ -5,7 +5,7 @@ Converts currency from one to another currencies with ease.
 ## screenshots
 ![currency1](currency1.png)
 
-![currency1](currency1.png)
+![currency1](currency2.png)
 
 
 ## License
