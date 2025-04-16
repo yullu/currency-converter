@@ -12,7 +12,7 @@
                 @csrf
                 <div class="flex flex-col font-bold w-4/4 px-2">
                     <label class="mb-3 text-black">Amount</label>
-                <input type="text" name="amount" placeholder="Enter Amount" class="py-3 px-4 bg-gray-100 rounded-xl" value="{{ session('amount') }}">
+                <input type="text" name="amount" placeholder="Enter Amount" class="py-3 px-4 bg-gray-100 rounded-xl" value="{{ old('amount') }}">
                     @error('amount')
                     <div class="text-decoration-color: #7f1d1d;">{{ $message }}</div>
                     @enderror
